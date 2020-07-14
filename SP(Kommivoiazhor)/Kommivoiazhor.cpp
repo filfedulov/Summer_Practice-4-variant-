@@ -604,7 +604,7 @@ void Kommivoiazhors::print_min_ways()
 	}
 	std::cout << last_punkt + 1 <<" = ";
 
-	summ.push_back(home);
+	summ.push_back(last_punkt);
 
 	for (int i = 0; i < counter_for_summ; i++)
 	{
