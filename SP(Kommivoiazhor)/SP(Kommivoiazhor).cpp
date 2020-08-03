@@ -6,8 +6,15 @@ int main(int argc,char* argv[])
 {
     setlocale(LC_ALL, "Rus");
 
-
-    Menu m;
+    try
+    {
+        Menu m;
+    }
+    catch (std::exception& ex)
+    {
+        std::cout << ex.what() << std::endl;
+    }
+   
 
 
     return 0;
